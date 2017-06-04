@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/titleColor</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--没有ActionBar的主题-->
+    <style name="SplashTheme" parent="AppTheme">
+        <!--窗口半透明导航-->
+        <item name="android:windowTranslucentNavigation">true</item>
+        <!--把状态栏修改为透明色-->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>
